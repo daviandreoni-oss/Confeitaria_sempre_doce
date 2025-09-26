@@ -16,15 +16,26 @@ body {
 }
 
 header {
+    display: flex;
     background-color: #f8b400;
     color: #fff;
     padding: 20px;
+}
+
+.logo{
+    width: 0;
+}
+
+.logo img{
+    width: 200px;
+    margin-left: 20px;
 }
 
 header h1 {
     text-align: center;
     font-size: 60px;
     margin-bottom: 10px;
+    border: 5px solid #333;
 }
 
 nav ul {
