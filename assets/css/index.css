@@ -22,6 +22,20 @@ header {
     padding: 20px;
 }
 
+.link-admin{
+    text-decoration: none;
+    position:absolute;
+    right: 0;
+    color: #333;
+    padding-right: 20px;
+}
+
+.link-admin:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #f87c00;
+}
+
 .logo{
     width: 0;
 }
@@ -35,7 +49,7 @@ header h1 {
     text-align: center;
     font-size: 60px;
     margin-bottom: 10px;
-}
+    }
 
 nav ul {
     list-style: none;
