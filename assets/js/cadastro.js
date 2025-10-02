@@ -39,7 +39,7 @@ if (password.value == confirmarPassword.value) {
         }
        
         //add na lista
-        listaE.push(usuarioA)
+        listaE.pusqh(usuarioA)
 
         //salvar no local storage
         window.localStorage.setItem('usuarios', JSON.stringify(listaE))
